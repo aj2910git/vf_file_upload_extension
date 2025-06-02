@@ -154,7 +154,7 @@ export const TimerExtension = {
 }
 
 export const FileUploadExtension = {
-  name: 'FileUpload',
+  name: 'extor_file_upload',
   type: 'response',
   match: ({ trace }) =>
     trace.type === 'ext_fileUpload' || trace.payload.name === 'ext_fileUpload',
